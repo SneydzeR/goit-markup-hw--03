@@ -160,8 +160,9 @@ body {
     width: 270px;
     margin-top: 94px;
     margin-left: 30px;
-    margin-bottom: 118PX;
+    margin-bottom: 118px;
 }
+/*Our work*/
 .work-list {
     color: var(--title-text-color);
     font-weight: 700;
@@ -178,6 +179,41 @@ body {
     line-height: 1.19;
     text-align: center;
 }
+.our-list {
+    display: flex;
+    text-align: center;
+}
+.our-list .item {
+    margin-top: 50px;
+    margin-left: 30px;
+    margin-bottom: 94px;
+    list-style: none;
+}
+.our-list .item {
+    margin-right: 30px;
+}
+.our-list .item:not(:last-child) {
+    margin-right: 30px; 
+}
+
+.fone {
+    background-color: var(--fon-button-color);
+}
+.team-list {
+    display: flex;
+    list-style: none;
+}
+
+.working-list {
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 50px;
+    padding-top: 94px;
+}
 .work-platform {
     background: var(--primary-white-color) ;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -185,6 +221,8 @@ body {
     width: 270px;
     height: 368px;
     text-align: center;
+    margin-right: 30px;
+    margin-bottom: 94px;
 }
 .work-platform .title {
     margin-top: 0px;
@@ -192,6 +230,7 @@ body {
 }
 .work-platform .text {
     margin-top: 0px;
+    margin-bottom: 30px;
 }
 .work-list .text{
     color: var(--primary-text-color);
@@ -200,6 +239,12 @@ body {
     line-height: 19px;
     text-align: center;
 }
+
+.team-list .title {
+    margin-bottom: 10px;
+    padding-top: 30px;
+}
+
 /*Button*/
 .button {
     font-family: inherit;
@@ -242,6 +287,9 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     text-decoration: none;
+}
+.logo-link {
+    margin-left: 5px;
 }
 .logo-studio {
     color: var(--primary-white-color);
@@ -299,6 +347,19 @@ body {
       clip-path: inset(50%);
       margin: -1px;
   }
+  .logo-link {
+    margin-bottom: 20px;
+    margin-left: 215px;
+  }
   .keys {
     font-style: normal;
+    padding-top: 20px;
+    margin-left: 215px;
+  }
+  .contact-list {
+    margin-left: 5px;
+    padding-top: 60px;
+  }
+  .contact-foot .item {
+    margin-bottom: 9px;
   }
