@@ -331,6 +331,17 @@ body {
     background-color: var(--accent-color);
     color: var(--primary-white-color);
 }
+.site-works {
+    display: flex;
+}
+.project-list {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.project-list .item {
+    margin-right: 30px;
+}
 /*Special*/
 .special {
     margin-top: 0;
@@ -355,6 +366,7 @@ body {
     font-style: normal;
     padding-top: 20px;
     margin-left: 215px;
+    padding-bottom: 60px;
   }
   .contact-list {
     margin-left: 5px;
