@@ -356,6 +356,8 @@ h1,h2,h3 { margin: 0px;
 }
 .site-works .item {
     margin-right: 8px;
+    padding-bottom: 50px;
+    padding-top: 100px;
 }
 .project-list {
     display: flex;
